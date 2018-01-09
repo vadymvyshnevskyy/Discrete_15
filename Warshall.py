@@ -2,7 +2,7 @@
 Discrete math and programming project
 №15 "Create a transitive closure of a matrix using Warshall's algorithm"
 
-Created by: Lebyak Markiyan, Vyshnevskiy Vadym, Shtokhman Yuriy
+Created by: Lebyak Markiyan, Vyshnevskyy Vadym, Shtokhman Yuriy
 08/01/2018
 '''
 import random
