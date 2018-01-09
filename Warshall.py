@@ -7,6 +7,7 @@ Created by: Lebyak Markiyan, Vyshnevskiy Vadym, Shtokhman Yuriy
 '''
 import random
 
+
 def generate_matrix():
     '''
     (None) -> (list)
@@ -19,6 +20,7 @@ def generate_matrix():
     print("\n")
     return arr
 
+
 def print_matrix(lst):
     '''
     (list) -> (string)
@@ -26,12 +28,13 @@ def print_matrix(lst):
     '''
     for i in lst:
         for j in i:
-            print(j, end = " ")
+            print(j, end=" ")
         print("")
+
 
 def find_trans(lst):
     '''
-    (list) ->
+    (list) -> ()
     This function finds transitive closure of a matrix and prints it out.
     '''
     length = len(lst)
